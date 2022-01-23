@@ -28,12 +28,12 @@ namespace SalesWebMvc.Models
             Department = department;
         }
 
-        public void AddSalles(SalesRecord sr)
+        public void AddSales(SalesRecord sr)
         {
             Sales.Add(sr);
         }
 
-        public void RemoveSalles(SalesRecord sr)
+        public void RemoveSales(SalesRecord sr)
         {
             Sales.Remove(sr);
         }
@@ -44,3 +44,4 @@ namespace SalesWebMvc.Models
         }
     }
 }
+
